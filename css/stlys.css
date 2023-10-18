@@ -259,15 +259,19 @@ strong:hover {
     border: 2px solid #b01ba5;
     color: #b01ba5;
 }
-/* .sm-link-ed {
+.sm-link-ed {
     position: absolute;
-    background-color: #081624;
+    background: linear-gradient(to bottom, #081624,#0f2e4d, #0e2c49);
     left: 780px;
     display: none;
 }
-.landing-page-container:hover .sm-link-ed {
-    display: inline;
-} */
+@media(max-width: 1216px) {
+    .sm-link-ed {
+        margin-right: 20px;
+        display: inline;
+    }
+}
+
 
 
 .game-body-conyainer {
@@ -839,7 +843,9 @@ strong:hover {
     width: 700px;
     color: white;
     padding: 10px 0px;
+    padding-left: 15px;
     margin-top: 23px;
+    border: none;
 }
 .btn-back.ed {
     margin-top: 0px;
